@@ -1,0 +1,68 @@
+.table {
+    display       : flex;
+    text-align    : center;
+    flex-direction: column;
+
+    h2 {
+        margin: 2rem;
+    }
+
+    .input {
+        display: flex;
+
+        Input {
+            margin-right: 3rem;
+        }
+    }
+
+    .job {
+        margin: 2rem;
+        width : 80%;
+
+        .ko {
+            background-color: rgb(250, 208, 208);
+            margin          : 6px;
+            border          : 2px solid rgb(177, 63, 63);
+            border-radius   : 4px;
+            height          : 55px;
+            position        : relative;
+
+
+            span {
+                position: absolute;
+                left    : 5px;
+                top     : 6px;
+
+            }
+
+            .button {
+                position: absolute;
+                right   : 3px;
+                top     : 6px;
+
+            }
+        }
+
+        .ok {
+            background-color: rgb(176, 250, 204);
+            margin          : 6px;
+            border          : 2px solid rgb(44, 233, 117);
+            border-radius   : 4px;
+            height          : 55px;
+            position        : relative;
+
+
+            span {
+                position: absolute;
+                left    : 5px;
+                top     : 6px;
+            }
+
+            .button {
+                position: absolute;
+                right   : 3px;
+                top     : 6px;
+            }
+        }
+    }
+}
